@@ -14,21 +14,13 @@ const HeroSection = () => {
             работы систем пожарной безопасности, контроля доступа и охранного
             видеонаблюдения
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button
               size="lg"
               className="bg-orange-600 hover:bg-orange-700 text-lg px-8 py-3"
             >
               <Icon name="Phone" size={20} />
               Получить консультацию
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="text-lg px-8 py-3 border-white text-white hover:bg-white hover:text-slate-900"
-            >
-              <Icon name="FileText" size={20} />
-              Скачать прайс-лист
             </Button>
           </div>
         </div>
