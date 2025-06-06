@@ -50,11 +50,11 @@ const AdvantagesSection = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {advantages.map((advantage, index) => (
             <div key={index} className="flex items-start space-x-4">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+              <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
                 <Icon
                   name={advantage.icon}
                   size={24}
-                  className="text-blue-600"
+                  className="text-orange-600"
                 />
               </div>
               <div>

@@ -31,7 +31,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section className="py-16 bg-slate-900 text-white">
+    <section className="py-16 bg-slate-800 text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4">Связаться с нами</h2>
@@ -43,9 +43,9 @@ const ContactSection = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {contacts.map((contact, index) => (
-            <Card key={index} className="bg-slate-800 border-slate-700">
+            <Card key={index} className="bg-slate-700 border-slate-600">
               <CardHeader className="text-center pb-4">
-                <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mx-auto mb-3">
+                <div className="w-12 h-12 bg-orange-600 rounded-lg flex items-center justify-center mx-auto mb-3">
                   <Icon name={contact.icon} size={24} className="text-white" />
                 </div>
                 <CardTitle className="text-lg text-white">
@@ -60,7 +60,7 @@ const ContactSection = () => {
           ))}
         </div>
 
-        <div className="bg-slate-800 rounded-lg p-8 max-w-2xl mx-auto text-center">
+        <div className="bg-slate-700 rounded-lg p-8 max-w-2xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-4">
             Готовы обсудить ваш проект?
           </h3>
@@ -69,14 +69,14 @@ const ContactSection = () => {
             консультации
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+            <Button size="lg" className="bg-orange-600 hover:bg-orange-700">
               <Icon name="Phone" size={20} />
               Заказать звонок
             </Button>
             <Button
               size="lg"
               variant="outline"
-              className="border-slate-600 text-white hover:bg-slate-700"
+              className="border-slate-500 text-white hover:bg-slate-600"
             >
               <Icon name="MessageSquare" size={20} />
               Написать в WhatsApp

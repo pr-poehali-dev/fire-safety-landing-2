@@ -67,11 +67,11 @@ const ServicesSection = () => {
               className="hover:shadow-lg transition-shadow duration-300"
             >
               <CardHeader className="text-center">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Icon
                     name={service.icon}
                     size={32}
-                    className="text-blue-600"
+                    className="text-orange-600"
                   />
                 </div>
                 <CardTitle className="text-xl font-bold text-slate-900">
